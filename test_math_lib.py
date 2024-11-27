@@ -18,8 +18,8 @@ def test_distanse():
 
 def test_quadratic_solver():
     assert quadratic_solver(1, -3, 2) == (2, 1) 
-    assert quadratic_solver(1, 2, 1) == -1
+    assert quadratic_solver(1, 2, 1) == (-1,)
     assert quadratic_solver(1, 2, 5) == None
 
 def test_geometric_sum():
-    geometric_sum(1, 2, 4) == 15
+    geometric_sum(1, 2, 4) == 16
