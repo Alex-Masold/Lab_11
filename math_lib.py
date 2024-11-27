@@ -1,3 +1,4 @@
+#Сидоров Александр Алексеевич
 from Point import Point
 
 
