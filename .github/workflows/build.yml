@@ -30,7 +30,11 @@ jobs:
           pytest --junitxml=report.xml 
 
       - name: Upload test results 
+<<<<<<< HEAD
         uses: actions/upload-artifact@v4
+=======
+        uses: actions/upload-artifact@v4 
+>>>>>>> e88fe5fb5fcf08e487e87f0162db5f9f3983f232
         with: 
           name: test-report 
           path: report.xml
